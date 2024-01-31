@@ -1,23 +1,23 @@
 html 
 {
     box-sizing: border-box;
-    color: grey;
-    background-color: grey;
+    color: white;
+    background-color: black;
     height: auto;
 }
 
 #outer-box
 {
     width: 70%;
-    height: 560px;
+    height: 90vh;
     /* height: auto; */
     padding-top: 3%;
     padding-bottom: 3%;
     /* margin-top: 15%; */
     margin-left: 15%;
-    border-color: #ace7ef;
-    outline-style: solid;
-    background-color: #071a52;
+    /* border-color: #ace7ef; */
+    /* outline-style: solid; */
+    background-color: gray;
     border-radius: 5%;
 }
 
@@ -36,11 +36,11 @@ a:link, a:visited, a:hover, a:active
 #social-links
 {
     height: 300px;
-    border-color: #ace7ef ;
+    /* border-color: #ace7ef ; */
     /* outline-style: solid; */
     border-radius: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 button
@@ -49,6 +49,16 @@ button
     margin-top: 12px;
     height: 25%;
     width: 100%;
-    background-color: #ace7ef;
+    background-color: darkgray;
     font-size: 140%;
+    color: white;
+}
+
+img
+{
+    width: 20% ;
+    /* height: 80px; */
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 40%;
 }
