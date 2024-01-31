@@ -1,5 +1,54 @@
-html {
+html 
+{
     box-sizing: border-box;
-    color: #ace7ef;
+    color: grey;
+    background-color: grey;
+    height: auto;
+}
+
+#outer-box
+{
+    width: 70%;
+    height: 560px;
+    /* height: auto; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* margin-top: 15%; */
+    margin-left: 15%;
+    border-color: #ace7ef;
+    outline-style: solid;
     background-color: #071a52;
+    border-radius: 5%;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+    color: #071a52;
+    background-color: #ace7ef;
+    text-decoration: none;
+}
+
+#social-links
+{
+    height: 300px;
+    border-color: #ace7ef ;
+    /* outline-style: solid; */
+    border-radius: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+button
+{
+    border-radius: 20px;
+    margin-top: 12px;
+    height: 25%;
+    width: 100%;
+    background-color: #ace7ef;
+    font-size: 140%;
 }
